@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Dancing+Script:wght@400..700&family=League+Spartan:wght@100..900&family=Mulish:ital,wght@0,300;1,300&family=Poppins:wght@100;200;300;400;600;700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero {
+  background-color: #0d0d0d;
+  min-height: 100vh;
+}
+nav {
+  background-color: #0d0d0d;
+}
+.navbar-brand {
+  font-family: "Audiowide", sans-serif;
+  letter-spacing: 3px;
+}
+.content {
+  transform: translateY(30%);
+  text-align: center;
+}
+.content h1 {
+  font-size: 3.2rem;
+}
+.content h1 span {
+  color: #ff6e00;
+}
+.btn {
+  border: 2px solid #ff6e00;
+}
+.primary {
+  background: #ff6e00;
+  color: #fff;
+}
+.secondary {
+  color: #ff6e00;
+}
+.about {
+  background-color: #222222;
+  height: 18rem;
+  border-radius: 23px;
+}
+.about h3::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 4rem;
+  height: 2px;
+  background-color: #ff6e00;
+}
+.about h3 {
+  color: #ff6e00;
+  font-size: 2rem;
+  position: relative;
+}
+.about p {
+  color: white;
+}
